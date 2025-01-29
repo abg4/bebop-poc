@@ -1,0 +1,18 @@
+{
+  "name": "bebop-poc",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc --build",
+    "start": "yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@across-protocol/app-sdk": "^0.0.5",
+    "axios": "^1.7.9",
+    "viem": "^2.22.8"
+  }
+}
