@@ -11,7 +11,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@across-protocol/app-sdk": "^0.0.5",
+    "@across-protocol/app-sdk": "^0.2.0",
     "axios": "^1.7.9",
     "viem": "^2.22.8"
   }
